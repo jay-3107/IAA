@@ -1,0 +1,6 @@
+node_modules
+backup
+venv
+__pycache__
+frontend1
+frontend3
