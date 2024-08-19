@@ -30,8 +30,14 @@ sentence_model = SentenceTransformer('all-mpnet-base-v2')
 def chunk_text(text, max_chunk_size=1000):
     return textwrap.wrap(text, max_chunk_size, break_long_words=False, replace_whitespace=False)
 
+
+#trying some things as iaa website is giving me a 403 error(anti bot mechanism)
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+}
 def fetch_website_content(url):
-    response = requests.get(url)
+    response = requests.get(url,headers=headers)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
     content = ' '.join([p.get_text() for p in soup.find_all('p')])
