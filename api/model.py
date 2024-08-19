@@ -40,7 +40,8 @@ def fetch_website_content(url):
     response = requests.get(url,headers=headers)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
-    content = ' '.join([p.get_text() for p in soup.find_all('p')])
+    #content = ' '.join([p.get_text() for p in soup.find_all('p')])
+    content = ' '.join([tag.get_text() for tag in soup.find_all(['p', 'h1', 'h2', 'h3', 'li'])])
     chunks = chunk_text(content)
     
     # Upsert data to Pinecone
