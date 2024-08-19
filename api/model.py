@@ -97,11 +97,11 @@ def rag_qa(url, question):
 @app.route('/ask', methods=['POST'])
 def ask_question():
     data = request.get_json()
-    url = data.get("url")
-    question = data.get("question")
+    url = "https://www.iaa.edu.in/home"
+    question = data.get("message")
     
     if not url or not question:
-        return jsonify({"error": "Please provide both a URL and a question."}), 400
+        return jsonify({"error": "Please provide a question."}), 400
     
     try:
         answer = rag_qa(url, question)
