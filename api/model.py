@@ -3,7 +3,6 @@ import pinecone
 from uuid import uuid4
 import requests
 from bs4 import BeautifulSoup
-import torch
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 from sentence_transformers import SentenceTransformer
 import textwrap

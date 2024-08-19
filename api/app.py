@@ -1,3 +1,4 @@
+#dont need this for now directly run -> python3 model.py
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS         
 from chat import get_response 
