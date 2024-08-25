@@ -5,7 +5,7 @@
 Clone repo and create a virtual environment
 ```
 $ git clone https://github.com/python-engineer/IAA.git
-$ cd backend
+$ cd api
 $ python3 -m venv venv
 $ . venv/bin/activate
 ```

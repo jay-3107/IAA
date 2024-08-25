@@ -1,8 +1,8 @@
 node_modules
 backup
 venv
-__pycache__
 frontend1
-frontend2
-frontend3
-backend
+frontend2.1
+frontend3.1
+backend(intent)
+__pycache__
