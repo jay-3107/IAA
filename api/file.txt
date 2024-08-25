@@ -1,0 +1,78 @@
+    Website Sections
+        Home
+        About IAA
+            General Council
+            Governing Body
+            Finance Committee
+            Member Secretary
+            Organization Structure
+        Courses
+            Airport Management
+            Aviation Safety
+            Aviation Security
+            International Training Program
+            MDP (Management Development Program)
+            ICAO Online Courses
+            Other Courses
+        E-learning Courses
+            AvSec Awareness
+            Airside Infrastructure
+            Airport Firefighting and Rescue Vehicle
+            Terminal Management
+        Training Calendar
+        Faculty
+        Photo Gallery
+        News & Events
+            Events
+            News
+            Tenders
+            Quotations
+            Circulars
+        Careers
+
+    Course Descriptions
+        E-learning Course on Airside Infrastructure
+            Part 1: Objective, Aerodrome reference point, Runway siting, Runway designation
+            Part 2: Runway width, shoulder, slope, threshold, touchdown zone
+            Part 3: Declared distances, runway s, stopway, clearway
+        E-course on AvSec Awareness
+            Basic AvSec fundamentals for e-learning
+        Introduction to Air Transportation Systems
+            History, impact, evolution, landscape of air transportation systems
+        Introduction to Airport Firefighting and Rescue Vehicle
+            Deciding type/number of AFFRV required and technical features
+        Terminal Management
+            Training leaders for terminal management
+
+    Notable Highlights
+        Upcoming Courses
+        E-learning Opportunities
+        Joint Ventures & Partnerships
+        Facility Descriptions
+            Academic block, auditorium, hostels, recreational areas
+        International Certifications & Memberships
+            TRAINAIR PLUS, ICAO Accreditation
+        Testimonial Highlights
+
+    Contact Information
+        Indian Aviation Academy
+        Location: Vasant Kunj, New Delhi
+        Training Programs & Certifications: Over 30,000 aviation professionals trained
+
+Structured Example for Ingestion:
+Section: Courses
+
+    Course Title: e-learning Course on Airside Infrastructure
+    Description: Self-paced course covering Aerodrome reference points, Runway siting, Runway designation, Runway thresholds, and more.
+    Modules:
+        Module 1: Aerodrome Reference Point, Runway designation
+        Module 2: Runway width, slope, and touchdown zone
+        Module 3: Declared distances, stopway, clearway
+    Audience: New or existing aviation professionals interested in airside infrastructure.
+
+Section: News & Events
+
+    Event Title: ICAO TRAINAIR PLUS CDI/STD Meeting
+    Date: October 24-26, 2018
+    Location: Indian Aviation Academy
+    Description: International Course Developers and Instructors Standardization Meeting attended by participants globally.
