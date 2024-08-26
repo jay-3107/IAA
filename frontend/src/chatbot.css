@@ -1,0 +1,228 @@
+
+.chatboxcontainer {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    background: #F1F1F1;
+}
+
+.chatboxcontainer {
+    --primaryGradient: linear-gradient(93.12deg, #0d1b75 0.52%, #3C4BA7 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #0d1b75 -2.14%, #3C4BA7 99.69%);
+    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+    --primary: #3C4BA7;
+}
+
+/* CHATBOX */
+.chatbox {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+/* CONTENT IS CLOSE */
+.chatboxsupport {
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    width: 1200px;
+    height: 1500px;
+    z-index: -123456;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    border-radius: 20px;
+} 
+
+/* CONTENT ISOPEN */
+.chatboxactive {
+    transform: translateY(-40px);
+    z-index: 123456;
+    opacity: 1;
+    
+}
+
+/* BUTTON */
+.chatboxbutton {
+    text-align: right;
+}
+
+.sendbutton {
+    padding: 6px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* HEADER */
+.chatboxheader {
+    position: sticky;
+    top: 0;
+    background: orange;
+}
+
+/* MESSAGES */
+.chatboxmessages {
+    margin-top: auto;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column-reverse;
+}
+
+.messagesitem {
+    background: orange;
+    max-width: 60.6%;
+    width: fit-content;
+}
+
+.messagesitemoperator {
+    margin-left: auto;
+}
+
+.messagesitemvisitor {
+    margin-right: auto;
+}
+
+/* FOOTER */
+.chatboxfooter {
+    position: sticky;
+    bottom: 0;
+}
+
+.chatboxsupport {
+    background: #f9f9f9;
+    height: 550px;
+    width: 450px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* HEADER */
+.chatboxheader {
+    background: var(--primaryGradient);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: var(--primaryBoxShadow);
+}
+
+.chatboximageheader {
+    margin-right: 10px;
+}
+
+.chatboxheadingheader {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.chatboxdescriptionheader {
+    font-size: .9rem;
+    color: white;
+}
+
+/* Messages */
+.chatboxmessages {
+    padding: 0 20px;
+}
+
+.messagesitem {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background: #E0E0E0;
+    padding: 8px 12px;
+    max-width: 70%;
+}
+
+.messagesitemvisitor,
+.messagesitemtyping {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.messagesitemoperator {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: var(--primary);
+    color: white;
+}
+
+/* FOOTER */
+.chatboxfooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background: rgb(252, 250, 250);
+    box-shadow: ;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 0px;
+}
+
+.chatboxfooter input {
+    width: 80%;
+    border:#0d1b75;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.chatboxsendfooter {
+    color: #0d1b75;
+    padding-right:15px;
+}
+
+.chatbotimage {
+    aspect-ratio: 1/1;
+    width: 3rem;
+    height: 2.5rem;
+    padding: 5px;
+}
+
+.chatboxbutton button,
+.chatboxbutton button:focus,
+.chatboxbutton button:visited {
+    padding: 10px;
+    background: #0066cc;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid var(--primary);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  display: none; /* Hidden by default */
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

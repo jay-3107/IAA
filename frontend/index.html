@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/images/aai-logo1.png" />
+    <link rel="stylesheet" href="/src/chatbot.css"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IAA</title>
+  </head>
+  <body>
+    <chatbotBox class="">
+      <div class="chatboxcontainer">
+        <div class="chatbox">
+          <div class="chatboxsupport">
+            <div class="chatboxheader">
+              <div class="chatboximageheader">
+                <img
+                  src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png"
+                  alt="image"
+                />
+              </div>
+              <div class="chatboxcontentheader">
+                <h4 class="chatboxheadingheader">Chat support</h4>
+                <p class="chatboxdescriptionheader">
+                  Hi. This is IAA. How can I help you?
+                </p>
+              </div>
+            </div>
+            <div class="chatboxmessages">
+            </div>
+            <div class="loader"></div>
+            <div class="chatboxfooter">
+              <input type="text" placeholder="Write a message..." />
+              <button class="chatboxsendfooter sendbutton"><img class="sendbutton" src="./src/assets/images/bxs-send.svg"></img></button>
+            </div>
+          </div>
+          <div class="chatboxbutton">
+            <button><img class="chatbotimage" src="./src/assets/images/aai-logo1.png" /></button>
+          </div>
+        </div>
+      </div>
+      <script src="/src/chatbot.js"></script>
+    </chatbotBox>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,17 +1,17 @@
 
 
-## Initial Setup:
-###to run the prototype not the t5 api
+## Running Project Locally
+### Backend(api)
 Clone repo and create a virtual environment
 ```
 $ git clone https://github.com/python-engineer/IAA.git
-$ cd backend
+$ cd api
 $ python3 -m venv venv
 $ . venv/bin/activate
 ```
 Install dependencies
 ```
-$ (venv) pip install Flask torch torchvision nltk
+$ (venv) pip3 install Flask torch torchvision nltk
 ```
 Install nltk package
 ```
@@ -19,15 +19,14 @@ $ (venv) python
 >>> import nltk
 >>> nltk.download('punkt')
 ```
-Modify `intents.json` with different intents and responses for your Chatbot
 
 Run
 ```
-$ (venv) python train.py
+$ (venv) python model.py
 ```
-This will dump data.pth file. And then run
-the following command to test it in the console.
+### Frontend
 ```
-$ (venv) python chat.py
+$ npm install
+$ npm run dev
 ```
 
