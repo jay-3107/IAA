@@ -1,7 +1,7 @@
 
 
-#Running Project Locally
-##Backend(api)
+## Running Project Locally
+### Backend(api)
 Clone repo and create a virtual environment
 ```
 $ git clone https://github.com/python-engineer/IAA.git
@@ -24,7 +24,7 @@ Run
 ```
 $ (venv) python model.py
 ```
-##Frontend
+### Frontend
 ```
 $ npm install
 $ npm run dev
