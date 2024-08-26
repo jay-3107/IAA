@@ -1,1 +1,1 @@
-"project is about the chatbot"
+Working on  the chatbot . Using the RAG pipeline and LLM
