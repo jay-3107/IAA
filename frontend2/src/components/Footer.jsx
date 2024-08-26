@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import companyLogo from '../assets/images/aai-logo.png';
+import companyLogo from '../assets/images/aai-logo1.png';
 import facebookLogo from '../assets/images/icon-facebook.svg';
 import youtubeLogo from '../assets/images/icon-youtube.svg';
 import twitterLogo from '../assets/images/icon-twitter.svg';
@@ -15,7 +15,7 @@ const Footer = () => {
         {/* Logo and social links container */}
         <div className="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
           <div className="mx-auto my-6 text-center text-white md:hidden">
-            Copyright © 2022, All Rights Reserved
+            Copyright © 2024, All Rights Reserved
           </div>
           {/* Logo */}
           <div>
@@ -52,10 +52,10 @@ const Footer = () => {
               Home
             </Link>
             <Link to="#" className="hover:text-brightRed">
-              Pricing
+            Training Calendar
             </Link>
             <Link to="#" className="hover:text-brightRed">
-              Products
+              Photo Gallery
             </Link>
             <Link to="#" className="hover:text-brightRed">
               About
@@ -66,7 +66,7 @@ const Footer = () => {
               Careers
             </Link>
             <Link to="#" className="hover:text-brightRed">
-              Community
+              News
             </Link>
             <Link to="#" className="hover:text-brightRed">
               Privacy Policy
@@ -89,7 +89,7 @@ const Footer = () => {
             </div>
           </form>
           <div className="hidden text-white md:block">
-            Copyright © 2022, All Rights Reserved
+            Copyright © 2024o, All Rights Reserved
           </div>
         </div>
       </div>

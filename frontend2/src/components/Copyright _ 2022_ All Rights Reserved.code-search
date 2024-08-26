@@ -1,0 +1,18 @@
+# Query: Copyright © 2022, All Rights Reserved
+# ContextLines: 1
+
+3 results - 2 files
+
+frontend2\src\components\Footer.jsx:
+  91            <div className="hidden text-white md:block">
+  92:             Copyright © 2024, All Rights Reserved
+  93            </div>
+
+frontend3\src\components\Footer.jsx:
+  17            <div className="mx-auto my-6 text-center text-white md:hidden">
+  18:             Copyright © 2024, All Rights Reserved
+  19            </div>
+
+  91            <div className="hidden text-white md:block">
+  92:             Copyright © 2024, All Rights Reserved
+  93            </div>

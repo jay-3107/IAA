@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import companyLogo from '../assets/images/aai-logo.png';
+import companyLogo from '../assets/images/aai-logo1.png';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -17,10 +17,10 @@ const Navbar = () => {
         {/* Menu Items */}
         <div className="hidden space-x-6 md:flex">
           <Link to="#" className="hover:text-darkGrayishBlue">
-            Pricing
+          Training Calendar
           </Link>
           <Link to="#" className="hover:text-darkGrayishBlue">
-            Product
+          Photo Gallery
           </Link>
           <Link to="#" className="hover:text-darkGrayishBlue">
             About Us
@@ -29,7 +29,7 @@ const Navbar = () => {
             Careers
           </Link>
           <Link to="#" className="hover:text-darkGrayishBlue">
-            Community
+          News
           </Link>
         </div>
         {/* Button */}
@@ -64,11 +64,11 @@ const Navbar = () => {
               : "absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
           }
         >
-          <Link to="#">Pricing</Link>
-          <Link to="#">Product</Link>
+          <Link to="#">Training Calendar</Link>
+          <Link to="#">Photo Gallery</Link>
           <Link to="#">About Us</Link>
           <Link to="#">Careers</Link>
-          <Link to="#">Community</Link>
+          <Link to="#">News</Link>
         </div>
       </div>
     </nav>

@@ -1,0 +1,32 @@
+# Query: Pricing
+# ContextLines: 1
+
+6 results - 4 files
+
+frontend2\src\components\Footer.jsx:
+  54              <Link to="#" className="hover:text-brightRed">
+  55:               Training Calendar
+  56              </Link>
+
+frontend2\src\components\Navbar.jsx:
+  19            <Link to="#" className="hover:text-darkGrayishBlue">
+  20:             Training Calendar
+  21            </Link>
+
+  66          >
+  67:           <Link to="#">Training Calendar</Link>
+  68            <Link to="#">Product</Link>
+
+frontend3\src\components\Footer.jsx:
+  54              <Link to="#" className="hover:text-brightRed">
+  55:               Training Calendar
+  56              </Link>
+
+frontend3\src\components\Navbar.jsx:
+  19            <Link to="#" className="hover:text-darkGrayishBlue">
+  20:             Training Calendar
+  21            </Link>
+
+  66          >
+  67:           <Link to="#">Training Calendar</Link>
+  68            <Link to="#">Product</Link>

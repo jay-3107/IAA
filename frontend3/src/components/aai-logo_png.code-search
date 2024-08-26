@@ -1,0 +1,15 @@
+# Query: aai-logo.png
+
+4 results - 4 files
+
+frontend2\src\components\Footer.jsx:
+  3: import companyLogo from '../assets/images/aai-logo1.png';
+
+frontend2\src\components\Navbar.jsx:
+  4: import companyLogo from '../assets/images/aai-logo1.png';
+
+frontend3\src\components\Footer.jsx:
+  3: import companyLogo from '../assets/images/aai-logo1.png';
+
+frontend3\src\components\Navbar.jsx:
+  4: import companyLogo from '../assets/images/aai-logo1.png';
